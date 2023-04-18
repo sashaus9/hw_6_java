@@ -10,7 +10,8 @@ public class Main {
         //Переполнение
         byte testByte = 120;
         byte testByte2 = 20;
-        byte result = testByte + testByte2;
+        byte result = (byte) (testByte + testByte2);
+        System.out.println(result);
 
         //Сложение
         int testInt = -99;
